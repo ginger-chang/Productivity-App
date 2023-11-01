@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "9642dd108757b1d006283ebcaa73360e383c7a313cfe90e83008cfe8e700e397"
+build_start_time: [1694112779, 127549000]
+build_end_time: [1694112780, 682069000]
+inputs:
+  "/Users/gingerC/Desktop/CS/Levi/Levi/AppDelegate.swift": [1670883793, 694798634]
+  "/Users/gingerC/Desktop/CS/Levi/Levi/SceneDelegate.swift": [1670883793, 697397194]
+  "/Users/gingerC/Desktop/CS/Levi/Levi/ShopItem.swift": [1670957407, 283592212]
+  "/Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift": [1694112778, 820607256]

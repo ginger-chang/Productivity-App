@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "58A427D6-E24E-447E-B227-E7040E6BCA6C"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Levi/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - 176e5e993499fcb2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.showerBattleButton.getter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - ac301781cd026c86"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.showerBattleButton.setter : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - aa8e49dbd4e068b7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.showerBattleButton.modify : Swift.Optional&lt;__C.UIButton&gt;"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - 38f148119f8f97ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.showerBattleButton.modify : Swift.Optional&lt;__C.UIButton&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - 38588c089005a221"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Levi.ViewController"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "396">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - e0f9403294459a26"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Levi.ViewController&gt;"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - 38588c089005a240"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; Levi.ViewController"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "388">
+               </Location>
+               <Location
+                  uuid = "BE3658CC-DAA0-4C75-B967-6273651C927F - e0f9403294459a47"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Levi.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;Levi.ViewController&gt;"
+                  moduleName = "Levi"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "364">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

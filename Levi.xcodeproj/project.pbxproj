@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D21ECFDD2947E151002D758A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ECFDC2947E151002D758A /* AppDelegate.swift */; };
+		D21ECFDF2947E151002D758A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ECFDE2947E151002D758A /* SceneDelegate.swift */; };
+		D21ECFE12947E151002D758A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ECFE02947E151002D758A /* ViewController.swift */; };
+		D21ECFE42947E151002D758A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21ECFE22947E151002D758A /* Main.storyboard */; };
+		D21ECFE62947E154002D758A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D21ECFE52947E154002D758A /* Assets.xcassets */; };
+		D21ECFE92947E154002D758A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D21ECFE72947E154002D758A /* LaunchScreen.storyboard */; };
+		D21ECFF42947E154002D758A /* LeviTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ECFF32947E154002D758A /* LeviTests.swift */; };
+		D21ECFFE2947E154002D758A /* LeviUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ECFFD2947E154002D758A /* LeviUITests.swift */; };
+		D21ED0002947E154002D758A /* LeviUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ECFFF2947E154002D758A /* LeviUITestsLaunchTests.swift */; };
+		D21ED013294843A9002D758A /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D21ED012294843A9002D758A /* ShopItem.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D21ECFF02947E154002D758A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21ECFD12947E151002D758A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21ECFD82947E151002D758A;
+			remoteInfo = Levi;
+		};
+		D21ECFFA2947E154002D758A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D21ECFD12947E151002D758A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21ECFD82947E151002D758A;
+			remoteInfo = Levi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D21ECFD92947E151002D758A /* Levi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Levi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21ECFDC2947E151002D758A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D21ECFDE2947E151002D758A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D21ECFE02947E151002D758A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D21ECFE32947E151002D758A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D21ECFE52947E154002D758A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D21ECFE82947E154002D758A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D21ECFEA2947E154002D758A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D21ECFEF2947E154002D758A /* LeviTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeviTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21ECFF32947E154002D758A /* LeviTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeviTests.swift; sourceTree = "<group>"; };
+		D21ECFF92947E154002D758A /* LeviUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeviUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D21ECFFD2947E154002D758A /* LeviUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeviUITests.swift; sourceTree = "<group>"; };
+		D21ECFFF2947E154002D758A /* LeviUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeviUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D21ED012294843A9002D758A /* ShopItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D21ECFD62947E151002D758A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21ECFEC2947E154002D758A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21ECFF62947E154002D758A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21ECFD02947E151002D758A = {
+			isa = PBXGroup;
+			children = (
+				D21ECFDB2947E151002D758A /* Levi */,
+				D21ECFF22947E154002D758A /* LeviTests */,
+				D21ECFFC2947E154002D758A /* LeviUITests */,
+				D21ECFDA2947E151002D758A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D21ECFDA2947E151002D758A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D21ECFD92947E151002D758A /* Levi.app */,
+				D21ECFEF2947E154002D758A /* LeviTests.xctest */,
+				D21ECFF92947E154002D758A /* LeviUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D21ECFDB2947E151002D758A /* Levi */ = {
+			isa = PBXGroup;
+			children = (
+				D21ECFDC2947E151002D758A /* AppDelegate.swift */,
+				D21ECFDE2947E151002D758A /* SceneDelegate.swift */,
+				D21ECFE02947E151002D758A /* ViewController.swift */,
+				D21ECFE22947E151002D758A /* Main.storyboard */,
+				D21ECFE52947E154002D758A /* Assets.xcassets */,
+				D21ECFE72947E154002D758A /* LaunchScreen.storyboard */,
+				D21ECFEA2947E154002D758A /* Info.plist */,
+				D21ED012294843A9002D758A /* ShopItem.swift */,
+			);
+			path = Levi;
+			sourceTree = "<group>";
+		};
+		D21ECFF22947E154002D758A /* LeviTests */ = {
+			isa = PBXGroup;
+			children = (
+				D21ECFF32947E154002D758A /* LeviTests.swift */,
+			);
+			path = LeviTests;
+			sourceTree = "<group>";
+		};
+		D21ECFFC2947E154002D758A /* LeviUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D21ECFFD2947E154002D758A /* LeviUITests.swift */,
+				D21ECFFF2947E154002D758A /* LeviUITestsLaunchTests.swift */,
+			);
+			path = LeviUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D21ECFD82947E151002D758A /* Levi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21ED0032947E154002D758A /* Build configuration list for PBXNativeTarget "Levi" */;
+			buildPhases = (
+				D21ECFD52947E151002D758A /* Sources */,
+				D21ECFD62947E151002D758A /* Frameworks */,
+				D21ECFD72947E151002D758A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Levi;
+			productName = Levi;
+			productReference = D21ECFD92947E151002D758A /* Levi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D21ECFEE2947E154002D758A /* LeviTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21ED0062947E154002D758A /* Build configuration list for PBXNativeTarget "LeviTests" */;
+			buildPhases = (
+				D21ECFEB2947E154002D758A /* Sources */,
+				D21ECFEC2947E154002D758A /* Frameworks */,
+				D21ECFED2947E154002D758A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21ECFF12947E154002D758A /* PBXTargetDependency */,
+			);
+			name = LeviTests;
+			productName = LeviTests;
+			productReference = D21ECFEF2947E154002D758A /* LeviTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D21ECFF82947E154002D758A /* LeviUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D21ED0092947E154002D758A /* Build configuration list for PBXNativeTarget "LeviUITests" */;
+			buildPhases = (
+				D21ECFF52947E154002D758A /* Sources */,
+				D21ECFF62947E154002D758A /* Frameworks */,
+				D21ECFF72947E154002D758A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D21ECFFB2947E154002D758A /* PBXTargetDependency */,
+			);
+			name = LeviUITests;
+			productName = LeviUITests;
+			productReference = D21ECFF92947E154002D758A /* LeviUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D21ECFD12947E151002D758A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D21ECFD82947E151002D758A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D21ECFEE2947E154002D758A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D21ECFD82947E151002D758A;
+					};
+					D21ECFF82947E154002D758A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D21ECFD82947E151002D758A;
+					};
+				};
+			};
+			buildConfigurationList = D21ECFD42947E151002D758A /* Build configuration list for PBXProject "Levi" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D21ECFD02947E151002D758A;
+			productRefGroup = D21ECFDA2947E151002D758A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D21ECFD82947E151002D758A /* Levi */,
+				D21ECFEE2947E154002D758A /* LeviTests */,
+				D21ECFF82947E154002D758A /* LeviUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D21ECFD72947E151002D758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21ECFE92947E154002D758A /* LaunchScreen.storyboard in Resources */,
+				D21ECFE62947E154002D758A /* Assets.xcassets in Resources */,
+				D21ECFE42947E151002D758A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21ECFED2947E154002D758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21ECFF72947E154002D758A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D21ECFD52947E151002D758A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21ECFE12947E151002D758A /* ViewController.swift in Sources */,
+				D21ECFDD2947E151002D758A /* AppDelegate.swift in Sources */,
+				D21ED013294843A9002D758A /* ShopItem.swift in Sources */,
+				D21ECFDF2947E151002D758A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21ECFEB2947E154002D758A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21ECFF42947E154002D758A /* LeviTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D21ECFF52947E154002D758A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D21ED0002947E154002D758A /* LeviUITestsLaunchTests.swift in Sources */,
+				D21ECFFE2947E154002D758A /* LeviUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D21ECFF12947E154002D758A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21ECFD82947E151002D758A /* Levi */;
+			targetProxy = D21ECFF02947E154002D758A /* PBXContainerItemProxy */;
+		};
+		D21ECFFB2947E154002D758A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D21ECFD82947E151002D758A /* Levi */;
+			targetProxy = D21ECFFA2947E154002D758A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D21ECFE22947E151002D758A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21ECFE32947E151002D758A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D21ECFE72947E154002D758A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D21ECFE82947E154002D758A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D21ED0012947E154002D758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D21ED0022947E154002D758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D21ED0042947E154002D758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BSUGBZ8ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Levi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Levi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gingerchang.Levi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D21ED0052947E154002D758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BSUGBZ8ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Levi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Levi;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gingerchang.Levi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D21ED0072947E154002D758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BSUGBZ8ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gingerchang.LeviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Levi.app/Levi";
+			};
+			name = Debug;
+		};
+		D21ED0082947E154002D758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BSUGBZ8ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gingerchang.LeviTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Levi.app/Levi";
+			};
+			name = Release;
+		};
+		D21ED00A2947E154002D758A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BSUGBZ8ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gingerchang.LeviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Levi;
+			};
+			name = Debug;
+		};
+		D21ED00B2947E154002D758A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7BSUGBZ8ZL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gingerchang.LeviUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Levi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D21ECFD42947E151002D758A /* Build configuration list for PBXProject "Levi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21ED0012947E154002D758A /* Debug */,
+				D21ED0022947E154002D758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21ED0032947E154002D758A /* Build configuration list for PBXNativeTarget "Levi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21ED0042947E154002D758A /* Debug */,
+				D21ED0052947E154002D758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21ED0062947E154002D758A /* Build configuration list for PBXNativeTarget "LeviTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21ED0072947E154002D758A /* Debug */,
+				D21ED0082947E154002D758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D21ED0092947E154002D758A /* Build configuration list for PBXNativeTarget "LeviUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D21ED00A2947E154002D758A /* Debug */,
+				D21ED00B2947E154002D758A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D21ECFD12947E151002D758A /* Project object */;
+}

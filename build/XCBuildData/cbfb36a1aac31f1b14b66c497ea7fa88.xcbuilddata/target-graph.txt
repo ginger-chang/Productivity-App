@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Levi in Levi, no dependencies
+LeviTests in Levi, depends on:
+Levi in Levi (explicit)
+LeviUITests in Levi, depends on:
+Levi in Levi (explicit)

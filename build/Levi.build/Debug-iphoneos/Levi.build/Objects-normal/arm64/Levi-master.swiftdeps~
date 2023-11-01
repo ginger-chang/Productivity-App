@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "22a852abd6b1e3cc099cb827120df5fbebd0ecaabb1038dc4d4467f52b05dd4f"
+build_start_time: [1671057578, 237223148]
+build_end_time: [1671057578, 266696929]
+inputs:
+  "/Users/gingerC/Desktop/CS/Levi/Levi/AppDelegate.swift": !private [1670883793, 694798469]
+  "/Users/gingerC/Desktop/CS/Levi/Levi/SceneDelegate.swift": !private [1670883793, 697397232]
+  "/Users/gingerC/Desktop/CS/Levi/Levi/ShopItem.swift": !private [1670957407, 283592224]
+  "/Users/gingerC/Desktop/CS/Levi/Levi/ViewController.swift": !private [1671057575, 145007610]
